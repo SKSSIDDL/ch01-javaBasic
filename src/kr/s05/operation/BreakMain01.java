@@ -1,0 +1,17 @@
+package kr.s05.operation;
+
+public class BreakMain01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//break는 반복문에서 특정 조건일 때 반복문을 빠져나가는 용도
+		int n =1;
+		while(n<=10) {
+			System.out.println(n);
+			n++;
+			
+			if(n==8) break;
+		}
+	}
+
+}
